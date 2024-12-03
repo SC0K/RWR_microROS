@@ -1,0 +1,112 @@
+[0.633s] Invoking command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed install_data
+[0.837s] running egg_info
+[0.837s] creating ../../../build/ament_copyright/ament_copyright.egg-info
+[0.837s] writing ../../../build/ament_copyright/ament_copyright.egg-info/PKG-INFO
+[0.837s] writing dependency_links to ../../../build/ament_copyright/ament_copyright.egg-info/dependency_links.txt
+[0.837s] writing entry points to ../../../build/ament_copyright/ament_copyright.egg-info/entry_points.txt
+[0.838s] writing requirements to ../../../build/ament_copyright/ament_copyright.egg-info/requires.txt
+[0.838s] writing top-level names to ../../../build/ament_copyright/ament_copyright.egg-info/top_level.txt
+[0.838s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.841s] reading manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.842s] writing manifest file '../../../build/ament_copyright/ament_copyright.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build
+[0.842s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib
+[0.842s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.842s] copying ament_copyright/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.842s] copying ament_copyright/copyright_names.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.842s] copying ament_copyright/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.843s] copying ament_copyright/parser.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.843s] copying ament_copyright/pytest_marker.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.843s] copying ament_copyright/licenses.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.843s] copying ament_copyright/crawler.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright
+[0.844s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.844s] copying ament_copyright/template/mit_header_0.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.844s] copying ament_copyright/template/bsd2_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/boost1_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/lgplv3_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/bsd_2clause_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/mit0_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/bsd_3clause_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.845s] copying ament_copyright/template/bsd2_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/mit0_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/bsd2_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/mit_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/boost1_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/lgplv3_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.846s] copying ament_copyright/template/gplv3_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.847s] copying ament_copyright/template/mit_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.847s] copying ament_copyright/template/gplv3_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.847s] copying ament_copyright/template/mit0_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.847s] copying ament_copyright/template/bsd_2clause_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.847s] copying ament_copyright/template/apache2_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/boost1_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/apache2_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/gplv3_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/mit_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/apache2_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/lgplv3_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.848s] copying ament_copyright/template/bsd_3clause_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.849s] copying ament_copyright/template/bsd_3clause_header_0.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.849s] copying ament_copyright/template/bsd_2clause_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.849s] copying ament_copyright/template/bsd_3clause_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template
+[0.849s] running install
+[0.850s] running install_lib
+[0.851s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.851s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.851s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/copyright_names.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.851s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.851s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/parser.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.852s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header_0.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.852s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd2_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.853s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit0_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.854s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.855s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/boost1_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.855s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.855s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/gplv3_contributing.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.855s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/mit_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.857s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/apache2_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.857s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/lgplv3_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.857s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.859s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_header_0.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.859s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_2clause_header.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.859s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/template/bsd_3clause_license.txt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/template
+[0.859s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/pytest_marker.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.860s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/licenses.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.860s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build/lib/ament_copyright/crawler.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright
+[0.860s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/__init__.py to __init__.cpython-310.pyc
+[0.860s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/copyright_names.py to copyright_names.cpython-310.pyc
+[0.861s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/main.py to main.cpython-310.pyc
+[0.862s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/parser.py to parser.cpython-310.pyc
+[0.862s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.862s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/licenses.py to licenses.cpython-310.pyc
+[0.862s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright/crawler.py to crawler.cpython-310.pyc
+[0.863s] running install_data
+[0.863s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/share/ament_copyright
+[0.864s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index
+[0.864s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index
+[0.864s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.864s] copying resource/ament_copyright -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/share/ament_index/resource_index/packages
+[0.864s] running install_egg_info
+[0.868s] Copying ../../../build/ament_copyright/ament_copyright.egg-info to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages/ament_copyright-0.12.11-py3.10.egg-info
+[0.869s] running install_scripts
+[0.892s] Installing ament_copyright script to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/bin
+[0.892s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/install.log'
+[0.935s] Invoked command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_copyright build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_copyright/install.log --single-version-externally-managed install_data

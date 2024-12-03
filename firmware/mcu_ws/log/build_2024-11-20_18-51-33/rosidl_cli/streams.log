@@ -1,0 +1,77 @@
+[1.199s] Invoking command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli': PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[1.361s] /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.362s]   warnings.warn(msg)
+[1.427s] running egg_info
+[1.437s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[1.437s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[1.438s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[1.439s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[1.440s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[1.441s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[1.441s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.467s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.469s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.471s] running build
+[1.471s] running build_py
+[1.477s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] copying rosidl_cli/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] copying rosidl_cli/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] copying rosidl_cli/common.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] copying rosidl_cli/cli.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] copying rosidl_cli/entry_points.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[1.477s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.478s] copying rosidl_cli/command/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.478s] copying rosidl_cli/command/helpers.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.478s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.478s] copying rosidl_cli/command/translate/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.478s] copying rosidl_cli/command/translate/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.478s] copying rosidl_cli/command/translate/api.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.479s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.479s] copying rosidl_cli/command/generate/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.479s] copying rosidl_cli/command/generate/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.479s] copying rosidl_cli/command/generate/api.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.479s] running install
+[1.495s] running install_lib
+[1.505s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.505s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.505s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.506s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.506s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.507s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.507s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.507s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.508s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.508s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.508s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.509s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.510s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.510s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.510s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.510s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.510s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[1.515s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/__init__.py to __init__.cpython-310.pyc
+[1.515s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/extensions.py to extensions.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/common.py to common.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/cli.py to cli.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/api.py to api.cpython-310.pyc
+[1.517s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-310.pyc
+[1.518s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-310.pyc
+[1.518s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/api.py to api.cpython-310.pyc
+[1.522s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-310.pyc
+[1.524s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-310.pyc
+[1.524s] running install_data
+[1.525s] copying resource/rosidl_cli -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.525s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/rosidl_cli
+[1.525s] copying resource/package.dsv -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/rosidl_cli
+[1.525s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[1.525s] copying completion/rosidl-argcomplete.bash -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[1.525s] copying completion/rosidl-argcomplete.zsh -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[1.525s] running install_egg_info
+[1.538s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-3.1.5-py3.10.egg-info
+[1.539s] running install_scripts
+[1.625s] Installing rosidl script to /home/sitong/micro_ros_ws/firmware/mcu_ws/install/bin
+[1.626s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/install.log'
+[1.683s] Invoked command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data

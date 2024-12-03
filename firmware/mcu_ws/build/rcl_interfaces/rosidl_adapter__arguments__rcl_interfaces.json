@@ -1,0 +1,22 @@
+{
+  "package_name": "rcl_interfaces",
+  "non_idl_tuples": [
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/FloatingPointRange.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/IntegerRange.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ListParametersResult.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/Log.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterDescriptor.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEventDescriptors.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterEvent.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/Parameter.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterType.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/ParameterValue.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:msg/SetParametersResult.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/DescribeParameters.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameters.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/GetParameterTypes.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/ListParameters.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/SetParametersAtomically.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/rcl_interfaces:srv/SetParameters.srv"
+  ]
+}

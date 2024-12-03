@@ -1,0 +1,4 @@
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Mesh.idl
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/MeshTriangle.idl
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Plane.idl
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/SolidPrimitive.idl

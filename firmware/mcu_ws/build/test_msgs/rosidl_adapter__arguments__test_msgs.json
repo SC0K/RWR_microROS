@@ -1,0 +1,23 @@
+{
+  "package_name": "test_msgs",
+  "non_idl_tuples": [
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Arrays.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/BasicTypes.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/BoundedPlainSequences.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/BoundedSequences.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Constants.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Defaults.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Empty.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/MultiNested.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Nested.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/Strings.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/UnboundedSequences.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:msg/WStrings.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:srv/Arrays.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:srv/BasicTypes.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:srv/Empty.srv",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/test_interface_files:action/Fibonacci.action",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/test_msgs:msg/Builtins.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/rcl_interfaces/test_msgs:action/NestedMessage.action"
+  ]
+}

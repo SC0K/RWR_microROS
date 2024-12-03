@@ -1,0 +1,40 @@
+[2.300s] Invoking command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_xmllint': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/install.log --single-version-externally-managed install_data
+[2.573s] running egg_info
+[2.574s] creating ../../../build/ament_xmllint/ament_xmllint.egg-info
+[2.574s] writing ../../../build/ament_xmllint/ament_xmllint.egg-info/PKG-INFO
+[2.574s] writing dependency_links to ../../../build/ament_xmllint/ament_xmllint.egg-info/dependency_links.txt
+[2.574s] writing entry points to ../../../build/ament_xmllint/ament_xmllint.egg-info/entry_points.txt
+[2.575s] writing requirements to ../../../build/ament_xmllint/ament_xmllint.egg-info/requires.txt
+[2.575s] writing top-level names to ../../../build/ament_xmllint/ament_xmllint.egg-info/top_level.txt
+[2.575s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.577s] reading manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.578s] writing manifest file '../../../build/ament_xmllint/ament_xmllint.egg-info/SOURCES.txt'
+[2.578s] running build
+[2.578s] running build_py
+[2.578s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build
+[2.578s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib
+[2.578s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.578s] copying ament_xmllint/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.578s] copying ament_xmllint/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.578s] copying ament_xmllint/pytest_marker.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint
+[2.578s] running install
+[2.579s] running install_lib
+[2.580s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.580s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.580s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.580s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build/lib/ament_xmllint/pytest_marker.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint
+[2.580s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/__init__.py to __init__.cpython-310.pyc
+[2.581s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/main.py to main.cpython-310.pyc
+[2.582s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint/pytest_marker.py to pytest_marker.cpython-310.pyc
+[2.583s] running install_data
+[2.583s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/share/ament_xmllint
+[2.583s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index
+[2.583s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index
+[2.583s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index/packages
+[2.583s] copying resource/ament_xmllint -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/share/ament_index/resource_index/packages
+[2.583s] running install_egg_info
+[2.587s] Copying ../../../build/ament_xmllint/ament_xmllint.egg-info to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages/ament_xmllint-0.12.11-py3.10.egg-info
+[2.588s] running install_scripts
+[2.608s] Installing ament_xmllint script to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/bin
+[2.609s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/install.log'
+[2.640s] Invoked command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_xmllint/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_xmllint build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_xmllint/install.log --single-version-externally-managed install_data

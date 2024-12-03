@@ -1,0 +1,79 @@
+[2.139s] Invoking command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data
+[2.334s] running egg_info
+[2.335s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[2.335s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[2.335s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[2.335s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[2.335s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[2.335s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[2.336s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.338s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.339s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[2.339s] running build
+[2.339s] running build_py
+[2.339s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build
+[2.339s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib
+[2.340s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.340s] copying ament_pclint/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.340s] copying ament_pclint/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[2.340s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.341s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.341s] copying ament_pclint/config/gcc/co-g++.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.341s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.341s] copying ament_pclint/config/gcc/co-gcc.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.341s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.341s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.342s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.342s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.342s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[2.342s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.342s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.343s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.343s] copying ament_pclint/config/msvc/co-cl.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[2.343s] copying ament_pclint/config/au-misra3.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.343s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.343s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.344s] copying ament_pclint/config/c99.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.344s] copying ament_pclint/config/c++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.344s] copying ament_pclint/config/deprecate.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.344s] copying ament_pclint/config/env-xml.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[2.345s] running install
+[2.345s] running install_lib
+[2.346s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.346s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.346s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint
+[2.346s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.346s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.347s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.347s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.347s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.347s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.347s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.347s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/gcc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.348s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.348s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config/msvc
+[2.349s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.349s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.349s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.349s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.349s] copying /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/config
+[2.350s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/__init__.py to __init__.cpython-310.pyc
+[2.350s] byte-compiling /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint/main.py to main.cpython-310.pyc
+[2.353s] running install_data
+[2.353s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[2.353s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index
+[2.353s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[2.353s] creating /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[2.353s] copying resource/ament_pclint -> /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[2.353s] running install_egg_info
+[2.356s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages/ament_pclint-0.12.11-py3.10.egg-info
+[2.357s] running install_scripts
+[2.377s] Installing ament_pclint script to /home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/bin
+[2.377s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/install.log'
+[2.410s] Invoked command in '/home/sitong/micro_ros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint PATH=/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/sitong/micro_ros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data

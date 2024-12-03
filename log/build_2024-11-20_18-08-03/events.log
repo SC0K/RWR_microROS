@@ -1,0 +1,1081 @@
+[0.000000] (-) TimerEvent: {}
+[0.000573] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000644] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000665] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/sitong/micro_ros_ws/install/micro_ros_msgs')])}
+[0.000685] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.004667] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.008003] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.008233] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sitong/micro_ros_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/sitong/micro_ros_ws/install/micro_ros_msgs'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[0.010856] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.011240] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.011805] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sitong/micro_ros_ws/build/micro_ros_setup', '--', '-j16', '-l16'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[0.046377] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.055223] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.066291] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.074563] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sitong/micro_ros_ws/build/micro_ros_setup'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[0.081594] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.081751] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.081820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.081878] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.081958] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.082074] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.082131] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.082184] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.082272] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.082370] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.082459] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.082513] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.082566] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.082619] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.082667] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.082708] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.082749] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config\n'}
+[0.082790] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.082833] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.082874] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android\n'}
+[0.082915] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.082955] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.082996] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.083035] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.083075] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.083114] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.083154] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.083194] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.083234] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.083290] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.083433] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.083504] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.083549] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.083590] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.083667] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.083710] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.083751] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.083791] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.083833] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.083874] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.083958] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.084002] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.084042] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.084082] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host\n'}
+[0.084122] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.084161] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.084201] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.084240] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.084279] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.084329] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.084372] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.084411] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.084449] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.084488] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.084526] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.084565] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.084603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.084641] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.084680] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.084719] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.084777] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.084818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.084858] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.084897] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.084937] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.084976] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.085014] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.085053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.085092] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.085188] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.085235] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.085275] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.085386] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.085437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.085479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.085520] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.085561] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.085601] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.085643] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.085683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.085725] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.085816] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.085861] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.085902] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.085942] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.085982] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.086049] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.086089] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.086127] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.086164] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.086201] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.086236] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.086272] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.086318] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.086361] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.086398] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.086434] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.086469] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.086506] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.086543] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.086580] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.086616] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.086652] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.086687] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.086723] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.086762] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.086799] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.086836] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.086872] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.086908] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.086944] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.086979] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.087020] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.087055] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.087091] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.087129] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.087169] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.087209] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.087248] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.087288] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.087420] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.087468] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.087511] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.087551] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.087592] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.087631] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.087670] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.087709] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.087749] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.087788] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.087826] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.087866] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.087905] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.087943] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.087983] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.088021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.088082] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.088125] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.088165] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.088205] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.088320] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.088376] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.088419] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.088460] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.088501] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.088541] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.088581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.088621] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.088660] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.088699] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.088738] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.088777] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.088815] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.088853] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.088892] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.088930] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.088969] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.089070] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.089114] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.089154] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.089194] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.089314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.089404] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.089449] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.089491] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.089531] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.089571] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.089610] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.089650] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.089688] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.089727] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.089766] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.089804] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.089842] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.089881] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.089919] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.090137] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.090185] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.090227] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.090268] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.090437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.090489] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.099506] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099806] (-) TimerEvent: {}
+[0.105491] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.123046] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.163751] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.168968] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.169168] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.169457] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.171708] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199909] (-) TimerEvent: {}
+[0.239964] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.245322] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.245534] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245875] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.247549] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299992] (-) TimerEvent: {}
+[0.362938] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400081] (-) TimerEvent: {}
+[0.438685] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.442355] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.449374] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.489020] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500158] (-) TimerEvent: {}
+[0.520323] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600259] (-) TimerEvent: {}
+[0.700519] (-) TimerEvent: {}
+[0.729945] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800617] (-) TimerEvent: {}
+[0.870178] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900712] (-) TimerEvent: {}
+[1.000952] (-) TimerEvent: {}
+[1.048657] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.066398] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.067934] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.090112] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.090237] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.090298] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.090365] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.101029] (-) TimerEvent: {}
+[1.105760] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.131416] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.138646] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.142450] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.148185] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.172608] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.175280] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sitong/micro_ros_ws/build/micro_ros_msgs\n'}
+[1.180475] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.180992] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[1.181739] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sitong/micro_ros_ws/build/micro_ros_msgs', '--', '-j16', '-l16'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[1.201103] (-) TimerEvent: {}
+[1.216087] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.224831] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.232946] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.301202] (-) TimerEvent: {}
+[1.401459] (-) TimerEvent: {}
+[1.427703] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.428376] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[1.428558] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[1.428711] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[1.428859] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[1.428988] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.431031] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.431485] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.454749] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[1.502397] (-) TimerEvent: {}
+[1.515249] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[1.525438] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.525616] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.525688] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.535529] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[1.535706] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[1.535779] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[1.591021] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.602459] (-) TimerEvent: {}
+[1.628471] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.638753] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.638928] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.639010] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.702554] (-) TimerEvent: {}
+[1.773883] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[1.774105] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[1.774205] (micro_ros_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[1.800234] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[1.800568] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[1.802281] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[1.802620] (-) TimerEvent: {}
+[1.831472] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[1.831708] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[1.834824] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[1.902738] (-) TimerEvent: {}
+[1.959646] (micro_ros_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[1.961462] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[1.961701] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[1.978879] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[1.979195] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[1.985437] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[2.002877] (-) TimerEvent: {}
+[2.010612] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.066475] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[2.066752] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[2.066893] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[2.086500] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.103487] (-) TimerEvent: {}
+[2.120616] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.159067] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.170354] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.203607] (-) TimerEvent: {}
+[2.216999] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.303719] (-) TimerEvent: {}
+[2.376671] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.403824] (-) TimerEvent: {}
+[2.421316] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.423558] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.451878] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.487037] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.492829] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.503887] (-) TimerEvent: {}
+[2.511025] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[2.528293] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.603994] (-) TimerEvent: {}
+[2.704276] (-) TimerEvent: {}
+[2.804529] (-) TimerEvent: {}
+[2.904764] (-) TimerEvent: {}
+[2.930468] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[2.949576] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[2.949759] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[2.949824] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[3.004863] (-) TimerEvent: {}
+[3.055899] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.092187] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[3.104955] (-) TimerEvent: {}
+[3.111326] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.111482] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.111547] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.187509] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.192759] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.192966] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.205053] (-) TimerEvent: {}
+[3.217258] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[3.222213] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.222368] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.233288] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.305124] (-) TimerEvent: {}
+[3.322867] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[3.323249] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sitong/micro_ros_ws/build/micro_ros_msgs'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[3.331142] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.331354] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[3.331510] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.331632] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.331703] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.331791] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[3.331926] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[3.332041] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[3.332158] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[3.332274] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[3.332399] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[3.332520] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[3.332640] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[3.332753] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[3.332862] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[3.332978] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[3.333106] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[3.333222] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.333338] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[3.333451] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[3.333565] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[3.333772] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[3.333912] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[3.334102] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[3.334431] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[3.334500] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.334569] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.334612] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.334669] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[3.334730] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[3.334849] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[3.334990] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.335139] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.335474] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.335562] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.335612] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.335681] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.335728] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[3.335795] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[3.335871] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[3.335971] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[3.336101] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[3.336226] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[3.336386] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.336528] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.336811] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.336865] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[3.337120] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.337179] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.337244] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.337294] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[3.337363] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.337423] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[3.337487] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[3.337596] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[3.337704] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[3.337820] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[3.337929] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[3.338043] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[3.338181] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[3.338297] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[3.338420] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[3.338524] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[3.338651] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.338714] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.338755] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.338827] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.338883] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.338977] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.339085] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.339187] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[3.339326] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.339724] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.339824] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[3.339887] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[3.339944] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[3.340018] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[3.340073] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.340144] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.340214] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.340309] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[3.340425] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[3.340578] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.340992] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.341050] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[3.341311] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.341379] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[3.341487] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[3.341607] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[3.341765] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[3.341874] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[3.341981] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[3.342104] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[3.342240] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[3.342333] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[3.342435] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.342562] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.342677] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.342806] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.342970] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.343155] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[3.343253] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[3.343371] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[3.343481] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[3.343589] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[3.343701] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[3.343808] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[3.343918] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[3.344035] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.344160] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.380711] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[3.380833] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[3.380894] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[3.380949] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[3.380999] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[3.381047] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[3.381094] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[3.383865] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.384277] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.384526] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.384918] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.385118] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.385413] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.385554] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.385816] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[3.385942] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[3.386054] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[3.386153] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[3.386280] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[3.386407] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[3.386530] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[3.386695] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[3.386872] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[3.386997] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[3.387124] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[3.387249] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[3.387391] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[3.387514] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[3.387638] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[3.387767] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[3.387889] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[3.388021] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[3.388193] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[3.388372] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[3.388507] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.388645] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.388785] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.388923] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.389055] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.389191] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.389329] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.389472] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.389612] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.389744] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.389882] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.390018] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.390160] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.390294] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.390438] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.390571] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.390704] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.390829] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.390953] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.391087] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.391213] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.391351] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.391489] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.391615] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[3.391723] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[3.391846] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[3.393842] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.405186] (-) TimerEvent: {}
+[3.493123] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[3.493960] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[3.499756] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[3.500077] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/sitong/micro_ros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/sitong/micro_ros_ws/install/micro_ros_agent'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[3.505253] (-) TimerEvent: {}
+[3.549162] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.554917] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.605356] (-) TimerEvent: {}
+[3.611606] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.616854] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.617050] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.617335] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.658581] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.664143] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.705466] (-) TimerEvent: {}
+[3.730229] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.735654] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.735870] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.736202] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.763158] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.765979] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.766598] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/sitong/micro_ros_ws/build/micro_ros_agent\n'}
+[3.770638] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[3.771115] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[3.771790] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sitong/micro_ros_ws/build/micro_ros_agent', '--', '-j16', '-l16'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[3.805554] (-) TimerEvent: {}
+[3.810308] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[3.865692] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[3.881095] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[3.905681] (-) TimerEvent: {}
+[4.006035] (-) TimerEvent: {}
+[4.106929] (-) TimerEvent: {}
+[4.207287] (-) TimerEvent: {}
+[4.307724] (-) TimerEvent: {}
+[4.408032] (-) TimerEvent: {}
+[4.508351] (-) TimerEvent: {}
+[4.608665] (-) TimerEvent: {}
+[4.709016] (-) TimerEvent: {}
+[4.809441] (-) TimerEvent: {}
+[4.909720] (-) TimerEvent: {}
+[5.010691] (-) TimerEvent: {}
+[5.110994] (-) TimerEvent: {}
+[5.211272] (-) TimerEvent: {}
+[5.311609] (-) TimerEvent: {}
+[5.392821] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[5.393010] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[5.411700] (-) TimerEvent: {}
+[5.442035] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[5.511792] (-) TimerEvent: {}
+[5.612099] (-) TimerEvent: {}
+[5.712898] (-) TimerEvent: {}
+[5.793656] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[5.812959] (-) TimerEvent: {}
+[5.825555] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[5.846053] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[5.853233] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/sitong/micro_ros_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[5.896361] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.902193] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.913038] (-) TimerEvent: {}
+[5.962676] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.968023] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.968205] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.968484] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.010719] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.013101] (-) TimerEvent: {}
+[6.016348] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.081469] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.086877] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.087110] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.087459] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.092941] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.113178] (-) TimerEvent: {}
+[6.153088] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.153272] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.213275] (-) TimerEvent: {}
+[6.215070] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.215841] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.224365] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.226228] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[6.226776] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/sitong/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[6.243874] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[6.280033] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[6.313355] (-) TimerEvent: {}
+[6.343035] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[6.364212] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[6.384207] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[6.404088] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[6.411069] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/sitong/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[6.413411] (-) TimerEvent: {}
+[6.415061] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[6.446225] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[6.446384] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[6.446452] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[6.446504] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[6.446551] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[6.446597] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.446643] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[6.446689] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[6.446733] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[6.446776] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.446821] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[6.446864] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[6.495541] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.502490] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.511549] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[6.512231] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/sitong/micro_ros_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[6.513491] (-) TimerEvent: {}
+[6.527774] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[6.567953] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[6.568183] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[6.568253] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[6.568322] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[6.568392] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[6.568466] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[6.568532] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[6.568585] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[6.568635] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[6.568695] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[6.568743] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[6.568783] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[6.568822] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[6.568868] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[6.568908] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[6.568949] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[6.613988] (-) TimerEvent: {}
+[6.715493] (-) TimerEvent: {}
+[6.815864] (-) TimerEvent: {}
+[6.916256] (-) TimerEvent: {}
+[7.016728] (-) TimerEvent: {}
+[7.118418] (-) TimerEvent: {}
+[7.218904] (-) TimerEvent: {}
+[7.263465] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[7.321393] (-) TimerEvent: {}
+[7.340882] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[7.421519] (-) TimerEvent: {}
+[7.521942] (-) TimerEvent: {}
+[7.622372] (-) TimerEvent: {}
+[7.722805] (-) TimerEvent: {}
+[7.826381] (-) TimerEvent: {}
+[7.926809] (-) TimerEvent: {}
+[7.970230] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[8.026937] (-) TimerEvent: {}
+[8.127351] (-) TimerEvent: {}
+[8.184066] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[8.203056] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[8.217324] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[8.227475] (-) TimerEvent: {}
+[8.234375] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[8.327593] (-) TimerEvent: {}
+[8.427980] (-) TimerEvent: {}
+[8.528402] (-) TimerEvent: {}
+[8.551385] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[8.628532] (-) TimerEvent: {}
+[8.728940] (-) TimerEvent: {}
+[8.829395] (-) TimerEvent: {}
+[8.929829] (-) TimerEvent: {}
+[9.033385] (-) TimerEvent: {}
+[9.133808] (-) TimerEvent: {}
+[9.234222] (-) TimerEvent: {}
+[9.334661] (-) TimerEvent: {}
+[9.435058] (-) TimerEvent: {}
+[9.535485] (-) TimerEvent: {}
+[9.635888] (-) TimerEvent: {}
+[9.736272] (-) TimerEvent: {}
+[9.836645] (-) TimerEvent: {}
+[9.940388] (-) TimerEvent: {}
+[10.040801] (-) TimerEvent: {}
+[10.141187] (-) TimerEvent: {}
+[10.241594] (-) TimerEvent: {}
+[10.342009] (-) TimerEvent: {}
+[10.442398] (-) TimerEvent: {}
+[10.487257] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[10.542520] (-) TimerEvent: {}
+[10.642911] (-) TimerEvent: {}
+[10.743328] (-) TimerEvent: {}
+[10.845393] (-) TimerEvent: {}
+[10.945817] (-) TimerEvent: {}
+[11.046253] (-) TimerEvent: {}
+[11.146695] (-) TimerEvent: {}
+[11.250391] (-) TimerEvent: {}
+[11.350817] (-) TimerEvent: {}
+[11.406272] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[11.450938] (-) TimerEvent: {}
+[11.546817] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[11.551059] (-) TimerEvent: {}
+[11.651463] (-) TimerEvent: {}
+[11.704198] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[11.749173] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[11.752247] (-) TimerEvent: {}
+[11.767977] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[11.852389] (-) TimerEvent: {}
+[11.956390] (-) TimerEvent: {}
+[12.056801] (-) TimerEvent: {}
+[12.157196] (-) TimerEvent: {}
+[12.223815] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[12.257332] (-) TimerEvent: {}
+[12.357731] (-) TimerEvent: {}
+[12.402538] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[12.457865] (-) TimerEvent: {}
+[12.558297] (-) TimerEvent: {}
+[12.658727] (-) TimerEvent: {}
+[12.760998] (-) TimerEvent: {}
+[12.858922] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[12.861109] (-) TimerEvent: {}
+[12.961512] (-) TimerEvent: {}
+[13.061902] (-) TimerEvent: {}
+[13.163407] (-) TimerEvent: {}
+[13.263808] (-) TimerEvent: {}
+[13.364227] (-) TimerEvent: {}
+[13.465390] (-) TimerEvent: {}
+[13.565789] (-) TimerEvent: {}
+[13.669380] (-) TimerEvent: {}
+[13.769747] (-) TimerEvent: {}
+[13.790272] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[13.869872] (-) TimerEvent: {}
+[13.970254] (-) TimerEvent: {}
+[13.992692] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[14.070393] (-) TimerEvent: {}
+[14.170810] (-) TimerEvent: {}
+[14.271195] (-) TimerEvent: {}
+[14.373396] (-) TimerEvent: {}
+[14.473796] (-) TimerEvent: {}
+[14.574178] (-) TimerEvent: {}
+[14.577351] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[14.674343] (-) TimerEvent: {}
+[14.776506] (-) TimerEvent: {}
+[14.876889] (-) TimerEvent: {}
+[14.977316] (-) TimerEvent: {}
+[15.047386] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[15.077382] (-) TimerEvent: {}
+[15.180392] (-) TimerEvent: {}
+[15.280794] (-) TimerEvent: {}
+[15.381192] (-) TimerEvent: {}
+[15.481579] (-) TimerEvent: {}
+[15.581996] (-) TimerEvent: {}
+[15.682399] (-) TimerEvent: {}
+[15.782835] (-) TimerEvent: {}
+[15.883230] (-) TimerEvent: {}
+[15.962830] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[15.983462] (-) TimerEvent: {}
+[16.083911] (-) TimerEvent: {}
+[16.102904] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[16.184044] (-) TimerEvent: {}
+[16.222319] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[16.284168] (-) TimerEvent: {}
+[16.384563] (-) TimerEvent: {}
+[16.396418] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[16.484687] (-) TimerEvent: {}
+[16.585067] (-) TimerEvent: {}
+[16.685482] (-) TimerEvent: {}
+[16.785864] (-) TimerEvent: {}
+[16.886242] (-) TimerEvent: {}
+[16.986648] (-) TimerEvent: {}
+[17.087036] (-) TimerEvent: {}
+[17.187400] (-) TimerEvent: {}
+[17.287808] (-) TimerEvent: {}
+[17.388230] (-) TimerEvent: {}
+[17.488624] (-) TimerEvent: {}
+[17.589004] (-) TimerEvent: {}
+[17.689386] (-) TimerEvent: {}
+[17.789764] (-) TimerEvent: {}
+[17.890124] (-) TimerEvent: {}
+[17.990509] (-) TimerEvent: {}
+[18.090945] (-) TimerEvent: {}
+[18.191331] (-) TimerEvent: {}
+[18.291734] (-) TimerEvent: {}
+[18.392107] (-) TimerEvent: {}
+[18.492446] (-) TimerEvent: {}
+[18.592774] (-) TimerEvent: {}
+[18.693113] (-) TimerEvent: {}
+[18.793419] (-) TimerEvent: {}
+[18.893759] (-) TimerEvent: {}
+[18.994097] (-) TimerEvent: {}
+[19.094444] (-) TimerEvent: {}
+[19.194783] (-) TimerEvent: {}
+[19.295141] (-) TimerEvent: {}
+[19.395489] (-) TimerEvent: {}
+[19.495835] (-) TimerEvent: {}
+[19.596149] (-) TimerEvent: {}
+[19.696519] (-) TimerEvent: {}
+[19.796844] (-) TimerEvent: {}
+[19.897167] (-) TimerEvent: {}
+[19.997506] (-) TimerEvent: {}
+[20.097832] (-) TimerEvent: {}
+[20.198162] (-) TimerEvent: {}
+[20.298521] (-) TimerEvent: {}
+[20.398808] (-) TimerEvent: {}
+[20.499110] (-) TimerEvent: {}
+[20.599406] (-) TimerEvent: {}
+[20.699689] (-) TimerEvent: {}
+[20.799974] (-) TimerEvent: {}
+[20.900268] (-) TimerEvent: {}
+[21.000571] (-) TimerEvent: {}
+[21.100848] (-) TimerEvent: {}
+[21.201122] (-) TimerEvent: {}
+[21.301395] (-) TimerEvent: {}
+[21.401653] (-) TimerEvent: {}
+[21.501912] (-) TimerEvent: {}
+[21.602173] (-) TimerEvent: {}
+[21.702440] (-) TimerEvent: {}
+[21.802702] (-) TimerEvent: {}
+[21.902963] (-) TimerEvent: {}
+[22.003225] (-) TimerEvent: {}
+[22.103498] (-) TimerEvent: {}
+[22.203758] (-) TimerEvent: {}
+[22.304019] (-) TimerEvent: {}
+[22.404347] (-) TimerEvent: {}
+[22.505015] (-) TimerEvent: {}
+[22.565222] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[22.605176] (-) TimerEvent: {}
+[22.705587] (-) TimerEvent: {}
+[22.805852] (-) TimerEvent: {}
+[22.811477] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[22.834345] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[22.853620] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[22.878590] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[22.898769] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[22.905930] (-) TimerEvent: {}
+[22.934260] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[22.977355] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[22.992856] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[22.999447] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.999598] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[23.002539] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[23.002779] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[23.002878] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[23.002959] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[23.003033] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[23.003113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[23.003182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[23.003313] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[23.003422] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[23.003498] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[23.003569] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[23.003669] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[23.003748] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[23.003828] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[23.003934] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[23.004070] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[23.004182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[23.004292] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[23.004407] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[23.004510] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[23.004616] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[23.004722] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[23.004825] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[23.004899] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[23.005004] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[23.005072] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[23.005144] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[23.005252] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[23.005363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[23.005436] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[23.005549] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[23.005658] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[23.005744] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[23.005853] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[23.005963] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[23.006003] (-) TimerEvent: {}
+[23.006079] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[23.006185] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[23.006305] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[23.006421] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[23.006499] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[23.006611] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[23.006724] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[23.006834] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[23.006916] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[23.007030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[23.007108] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[23.007220] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[23.007377] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[23.007494] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[23.007605] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[23.007718] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[23.007833] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[23.007917] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[23.008031] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[23.008109] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[23.008222] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[23.008346] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[23.008461] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[23.008572] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[23.008692] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[23.008803] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[23.008886] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[23.009007] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[23.009120] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[23.009233] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[23.009353] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[23.009466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[23.009576] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[23.009654] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[23.009773] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[23.009894] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[23.010002] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[23.010076] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[23.010184] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[23.010257] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[23.010392] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[23.010508] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[23.010981] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[23.011097] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[23.011209] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[23.011281] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[23.011525] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[23.011604] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[23.011718] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[23.011799] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[23.011913] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[23.012024] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[23.012138] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[23.012210] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[23.012286] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[23.012404] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[23.012529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[23.012603] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[23.012728] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[23.012858] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[23.012976] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[23.013049] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[23.013161] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[23.013297] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[23.013394] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[23.013505] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[23.013580] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[23.013693] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[23.013766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[23.013875] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[23.013948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[23.014057] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[23.014132] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[23.014244] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[23.014366] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[23.014443] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[23.014561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[23.014673] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[23.014745] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[23.014819] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[23.014971] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[23.015047] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[23.015174] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[23.015293] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[23.015397] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[23.015524] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[23.015646] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[23.015765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[23.015844] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[23.015986] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[23.016237] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[23.016403] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[23.016551] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[23.016691] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[23.016831] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[23.016945] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[23.032176] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[23.058187] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[23.074783] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[23.106120] (-) TimerEvent: {}
+[23.129697] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[23.149007] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[23.167967] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[23.187015] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[23.194130] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/sitong/micro_ros_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[23.198087] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[23.206197] (-) TimerEvent: {}
+[23.306416] (-) TimerEvent: {}
+[23.312929] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[23.406520] (-) TimerEvent: {}
+[23.457424] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[23.461188] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[23.506626] (-) TimerEvent: {}
+[23.532147] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[23.532380] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.604173] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[23.604968] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[23.606700] (-) TimerEvent: {}
+[23.608693] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[23.609835] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[23.626758] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[23.628558] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[23.651424] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[23.658571] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[23.664681] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.674761] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.690455] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[23.706783] (-) TimerEvent: {}
+[23.733709] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[23.734941] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[23.736894] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[23.737525] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/home/sitong/micro_ros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[23.793682] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.801163] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[23.802321] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/sitong/micro_ros_ws/build/micro_ros_agent\n'}
+[23.806870] (-) TimerEvent: {}
+[23.821081] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[23.856252] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[23.856430] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[23.856496] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[23.856552] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[23.856614] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[23.906980] (-) TimerEvent: {}
+[24.007246] (-) TimerEvent: {}
+[24.107527] (-) TimerEvent: {}
+[24.207807] (-) TimerEvent: {}
+[24.308082] (-) TimerEvent: {}
+[24.408376] (-) TimerEvent: {}
+[24.508679] (-) TimerEvent: {}
+[24.608957] (-) TimerEvent: {}
+[24.709233] (-) TimerEvent: {}
+[24.809536] (-) TimerEvent: {}
+[24.909817] (-) TimerEvent: {}
+[25.010090] (-) TimerEvent: {}
+[25.110360] (-) TimerEvent: {}
+[25.210639] (-) TimerEvent: {}
+[25.310921] (-) TimerEvent: {}
+[25.411186] (-) TimerEvent: {}
+[25.511460] (-) TimerEvent: {}
+[25.611723] (-) TimerEvent: {}
+[25.712001] (-) TimerEvent: {}
+[25.812257] (-) TimerEvent: {}
+[25.912534] (-) TimerEvent: {}
+[26.012815] (-) TimerEvent: {}
+[26.113067] (-) TimerEvent: {}
+[26.213337] (-) TimerEvent: {}
+[26.313603] (-) TimerEvent: {}
+[26.413852] (-) TimerEvent: {}
+[26.514120] (-) TimerEvent: {}
+[26.614400] (-) TimerEvent: {}
+[26.714657] (-) TimerEvent: {}
+[26.814908] (-) TimerEvent: {}
+[26.846635] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[26.915017] (-) TimerEvent: {}
+[27.015280] (-) TimerEvent: {}
+[27.089400] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[27.112759] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[27.115346] (-) TimerEvent: {}
+[27.131862] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[27.161666] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[27.172524] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[27.204322] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[27.204748] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sitong/micro_ros_ws/build/micro_ros_agent'], 'cwd': '/home/sitong/micro_ros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sitong'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/sitong/.mujoco/mujoco-3.2.5/bin'), ('HOME', '/home/sitong'), ('OLDPWD', '/home/sitong/micro_ros_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sitong/micro_ros_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sitong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sitong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/sitong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sitong-Alienware-m15-Ryzen-Ed-R5:@/tmp/.ICE-unix/1924,unix/sitong-Alienware-m15-Ryzen-Ed-R5:/tmp/.ICE-unix/1924'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80de9353_69a6_494d_b7f8_e6b4bc355cd1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/sitong/.mujoco/mujoco-3.2.5'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sitong/micro_ros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sitong/micro_ros_ws/install/micro_ros_msgs:/home/sitong/micro_ros_ws/install/micro_ros_setup:/opt/ros/humble')]), 'shell': False}
+[27.211610] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.211760] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[27.211958] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[27.212140] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[27.212261] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[27.212409] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[27.212529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[27.212652] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[27.212781] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[27.212909] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[27.213029] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[27.213149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[27.213318] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[27.213478] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.213603] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[27.213710] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[27.213829] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[27.213998] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[27.215238] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/sitong/micro_ros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[27.215315] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[27.215374] (-) TimerEvent: {}
+[27.215463] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/sitong/micro_ros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[27.216827] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[27.260830] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[27.261346] (-) EventReactorShutdown: {}

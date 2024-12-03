@@ -1,0 +1,9 @@
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/uninstall.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/tracetools_uninstall.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/test.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/edit_cache.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/rebuild_cache.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/list_install_components.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/install.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/install/local.dir
+/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools/CMakeFiles/install/strip.dir

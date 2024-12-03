@@ -1,0 +1,18 @@
+{
+  "package_name": "visualization_msgs",
+  "non_idl_tuples": [
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/ImageMarker.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarker.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerControl.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerFeedback.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerInit.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerPose.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/InteractiveMarkerUpdate.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/Marker.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/MarkerArray.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/MenuEntry.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/MeshFile.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:msg/UVCoordinate.msg",
+    "/home/sitong/micro_ros_ws/firmware/mcu_ws/ros2/common_interfaces/visualization_msgs:srv/GetInteractiveMarkers.srv"
+  ]
+}

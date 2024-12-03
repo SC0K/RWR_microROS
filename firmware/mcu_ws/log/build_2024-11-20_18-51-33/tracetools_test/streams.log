@@ -1,0 +1,35 @@
+[0.520s] Invoking command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/uros/tracetools/tracetools_test': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_test build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/install.log --single-version-externally-managed install_data
+[0.708s] /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.708s]   warnings.warn(msg)
+[0.749s] running egg_info
+[0.755s] creating ../../../build/tracetools_test/tracetools_test.egg-info
+[0.755s] writing ../../../build/tracetools_test/tracetools_test.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../../../build/tracetools_test/tracetools_test.egg-info/dependency_links.txt
+[0.756s] writing requirements to ../../../build/tracetools_test/tracetools_test.egg-info/requires.txt
+[0.756s] writing top-level names to ../../../build/tracetools_test/tracetools_test.egg-info/top_level.txt
+[0.756s] writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[0.771s] reading manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../../build/tracetools_test/tracetools_test.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.773s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[0.773s] copying tracetools_test/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[0.773s] copying tracetools_test/case.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[0.773s] copying tracetools_test/utils.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test
+[0.774s] running install
+[0.778s] running install_lib
+[0.785s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[0.786s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[0.786s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/case.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[0.786s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build/lib/tracetools_test/utils.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test
+[0.787s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/__init__.py to __init__.cpython-310.pyc
+[0.787s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/case.py to case.cpython-310.pyc
+[0.790s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test/utils.py to utils.cpython-310.pyc
+[0.790s] running install_data
+[0.791s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/tracetools_test
+[0.791s] copying resource/tracetools_test -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[0.791s] running install_egg_info
+[0.799s] Copying ../../../build/tracetools_test/tracetools_test.egg-info to /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_test-4.1.1-py3.10.egg-info
+[0.799s] running install_scripts
+[0.844s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/install.log'
+[0.869s] Invoked command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/uros/tracetools/tracetools_test' returned '0': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_test build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/tracetools_test/install.log --single-version-externally-managed install_data

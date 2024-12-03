@@ -1,0 +1,43 @@
+[0.872s] Invoking command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
+[1.008s] /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.008s]   warnings.warn(msg)
+[1.045s] running egg_info
+[1.051s] creating ../../../build/ros2trace/ros2trace.egg-info
+[1.052s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.052s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.052s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.052s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.066s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.067s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.068s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.068s] copying ros2trace/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[1.068s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.068s] copying ros2trace/api/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[1.069s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.069s] copying ros2trace/command/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.069s] copying ros2trace/command/trace.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[1.070s] running install
+[1.074s] running install_lib
+[1.080s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.080s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace
+[1.080s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.081s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api
+[1.081s] creating /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.081s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.081s] copying /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command
+[1.082s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/__init__.py to __init__.cpython-310.pyc
+[1.082s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/api/__init__.py to __init__.cpython-310.pyc
+[1.082s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/__init__.py to __init__.cpython-310.pyc
+[1.082s] byte-compiling /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace/command/trace.py to trace.cpython-310.pyc
+[1.083s] running install_data
+[1.083s] copying package.xml -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/ros2trace
+[1.083s] copying resource/ros2trace -> /home/sitong/micro_ros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[1.083s] running install_egg_info
+[1.090s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[1.091s] running install_scripts
+[1.135s] writing list of installed files to '/home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[1.167s] Invoked command in '/home/sitong/micro_ros_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/sitong/micro_ros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/sitong/micro_ros_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/sitong/micro_ros_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
